@@ -69,10 +69,42 @@ Cambiando el estilo de la línea de los gráficos
 plot [-15:15][-1.2:1.5] sin(x)/x with points
 plot [-15:15][-1.2:1.5] sin(x)/x with impulses
 plot [-15:15][-1.2:1.5] sin(x)/x with boxes
+plot sin(x) w p # con puntos
+plot sin(x) lt 0 lw 2  #Dashed line
 plot [-15:15][-1.2:1.5] sin(x)/x lw 2  #Grosor de línea
 plot [-15:15][-1.2:1.5] sin(x)/x lw 2 lt 10 #Cambio el color de la línea
+plot sin(x) lt rgb "violet"  # Color violeta con rgb
+ plot sin(x) lt rgb "#FF00FF
 plot [-15:15][-1.2:1.5] sin(x)/x w p pt 7 ps 1 #Por puntos
 plot [-15:15][-1.2:1.5] sin(x)/x w p pt 3 ps 1
+
+#Seteando stylo de lineas
+
+set style line 1 lt 1 lw 3 pt 3 lc rgb "red"
+set style line 2 lt 3 lw 3 pt 3 lc rgb "red"
+set style line 3 lt 1 lw 3 pt 3 lc rgb "blue"
+set style line 4 lt 3 lw 3 pt 3 lc rgb "blue"
+
+set style line 1 lt 0 lw 3 pt 3 lc rgb "red"
+f(x) = x**2 +2*x+3
+plot f(x) ls 1
+plot f(x) ls 1, sin(x) ls 2, tan(3*x)
+
+#Guardar grafico .ps .pdf
+
+set terminal postscript enhanced color
+set output 'plot.ps'
+set output 'plot1.pdf'
+plot sin(x)
+
+# Graficar una línea horizontal
+
+plot x**2+3, 20 with lines lt 0 lw 2 lc "green"  # En 20 
+
+#Graficar una línea vertical
+
+set arrow from 3, graph 0 to 3, graph 1 lc rgb 'red' nohead
+plot sin(x)
 
 
 
