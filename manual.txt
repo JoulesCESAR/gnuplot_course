@@ -1,0 +1,86 @@
+# Curso de GNU Plot
+
+Abrir el terminal de Linux
+
+gnuplot
+
+help # Para información en general
+
+plot 3*x - 4
+plot x**2 + 3*x - 3
+plot sin(x)
+plot sin(x)/x
+p cos(x)
+
+set title "Mi primer gráfico en GNU Plot"
+replot
+set xlabel "Valor de las x"
+replot
+set ylabel "Valor de la función"
+replot
+set xrange [-2*pi:2*pi]
+replot
+set yrange [-1.2:1.2]
+replot
+set autoscale # Permitir que GNU Plot determine la escala
+replot
+set key at 7,-0.8 # Fija la posición de la leyenda
+replot
+unset key #borra la leyenda
+replot
+set key # otra vez pone la leyenda
+replot
+set label "Etiqueta" at -4,0.4 #Poner texto en el gráfico
+replot
+unset label
+replot
+set logscale #Setea escala logaritmica en los ejes
+replot
+unset logscale
+replot
+set logscale x #Pone escala logaritmica en x
+replot
+unset logscale x #Quita la escala logaritmica en x
+set logscale y #Pone escala logaritmica en y
+replot
+set xtics (-1,-0.5,0,0.5,1,2,4,6) # setea las marcas en el eje x
+replot 
+unset xtics #Quita las marcas en el eje x
+replot
+set xtics auto #Pone las marcas en el eje x de manera automática
+replot
+set ytics (-1,-0.5,0,0.5,1) 
+replot
+set ytics auto
+
+#Ahora quiero poner otra curva en la misma figura
+
+replot sin(x)/x
+set key at 1.2,-0.6
+replot
+
+clear #borra todo
+plot sin(x)/x, cos(x) #Grafica las dos curvas
+replot
+plot sin(x)/x, cos(x), log(x) #Grafica 3 curvas
+replot
+plot [-15:15][-1.2:1.5] sin(x)/x, cos(3*x) #Define el rango en los ejes
+Cambiando el estilo de la línea de los gráficos
+plot [-15:15][-1.2:1.5] sin(x)/x with points
+plot [-15:15][-1.2:1.5] sin(x)/x with impulses
+plot [-15:15][-1.2:1.5] sin(x)/x with boxes
+plot [-15:15][-1.2:1.5] sin(x)/x lw 2  #Grosor de línea
+plot [-15:15][-1.2:1.5] sin(x)/x lw 2 lt 10 #Cambio el color de la línea
+plot [-15:15][-1.2:1.5] sin(x)/x w p pt 7 ps 1 #Por puntos
+plot [-15:15][-1.2:1.5] sin(x)/x w p pt 3 ps 1
+
+
+
+
+
+
+
+
+
+
+
