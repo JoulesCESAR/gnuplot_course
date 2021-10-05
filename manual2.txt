@@ -1,0 +1,32 @@
+## Graficando data
+
+#graficando puntos individualmente
+
+plot "<echo '1 2'" ps 2
+
+plot "<echo '1 2'"   with points ls 1, \
+     "<echo '2 1'"   with points ls 2, \
+     "<echo '3 1.5'" with points ls 3
+
+
+#se crea primero el archivo de datos: datafile.txt
+
+# x y
+1 2
+2 3
+3 2
+4 1
+5 7
+1.2 3 
+ 
+luego se lo carga
+
+plot 'datafile.txt' ls 2 lc rgb 'black' pt 7
+plot 'datafile.txt' pointtype 7 lc rgb 'red'
+
+
+#graficando los datos pero también otras funciones ahi mismo
+
+plot 'datafile.txt' ls 2 lc rgb 'black' pt 7, x+1 lw 2, x**2-3*x-4 lc rgb 'red' lw 2 
+
+reset #borra todo lo anterior

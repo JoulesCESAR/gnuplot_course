@@ -4,6 +4,12 @@ Abrir el terminal de Linux
 
 gnuplot
 
+# Graficando puntos individualmente
+
+plot "<echo '1 2'"   with points ls 1, \
+     "<echo '2 1'"   with points ls 2, \
+     "<echo '3 1.5'" with points ls 3
+
 help # Para información en general
 
 plot 3*x - 4
@@ -11,6 +17,12 @@ plot x**2 + 3*x - 3
 plot sin(x)
 plot sin(x)/x
 p cos(x)
+
+plot [-4:4] exp(-x**2 / 2), x**2 / 16
+plot [t=-4:4] exp(-t**2 / 2), t**2 / 16
+
+plot sin(x) with points pointtype 7
+plot sin(x) with points pointtype 7, sin(x) lw 2
 
 set title "Mi primer gráfico en GNU Plot"
 replot

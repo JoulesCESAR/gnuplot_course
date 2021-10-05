@@ -1,0 +1,52 @@
+# Graficando en 3d
+
+set xrange[0:7] 
+set yrange[1:5]
+splot exp(-0.2*x)*cos(x*y)*sin(y)
+
+#se puede incrementar el número de líneas 
+
+set xrange[-3:7] 
+set yrange[1:5]
+set isosamples 30
+splot exp(-0.2*x)*cos(x*y)*sin(y)
+
+# Lectura de datos
+
+#Primero crea tu archivo de lectura: 3ddatafile.txt
+
+splot '3ddatafile.txt'
+splot '3ddatafile.txt' with lines
+splot '3ddatafile.txt' title 'test' with lines
+splot '3ddatafile.txt', sin(x*y) 
+
+# hidden lines
+
+set xrange[-3:7] 
+set yrange[1:5]
+set isosamples 30
+set hidden3d
+splot exp(-0.2*x)*cos(x*y)*sin(y)
+
+#tambien se puede poner contorno
+
+set xrange[-3:4] 
+set yrange[1:5]
+set isosamples 30
+set hidden3d
+set key outside
+set contour both
+splot exp(-0.2*x)*cos(x*y)*sin(y) notitle
+
+# ver solamente el contorno
+set xrange[-3:4] 
+set yrange[1:5]
+set isosamples 50
+set view map
+unset surface
+set hidden3d
+set key outside
+set contour base
+set cntrparam levels 10
+splot exp(-0.2*x)*cos(x*y)*sin(y) notitle
+ 
