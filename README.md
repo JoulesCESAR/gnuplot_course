@@ -1,2 +1,3 @@
 # GNUPlot_course
-Manual GNUPlot
+Manual gnuplot
+
