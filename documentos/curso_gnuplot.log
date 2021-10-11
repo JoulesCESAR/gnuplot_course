@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.5.23)  10 OCT 2021 22:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.5.23)  11 OCT 2021 11:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -576,7 +576,7 @@ LaTeX Info: Redefining \nameref on input line 24.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<logo.png, id=24, 578.16pt x 578.16pt>
+<logo.png, id=28, 578.16pt x 578.16pt>
 File: logo.png Graphic file (type png)
 <use logo.png>
 Package pdftex.def Info: logo.png  used on input line 29.
@@ -611,54 +611,80 @@ Underfull \hbox (badness 10000) in paragraph at lines 63--64
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./logo.png>]
-<ejemplo1.pdf, id=44, 642.4pt x 481.8pt>
+<ejemplo1.pdf, id=48, 642.4pt x 481.8pt>
 File: ejemplo1.pdf Graphic file (type pdf)
 <use ejemplo1.pdf>
 Package pdftex.def Info: ejemplo1.pdf  used on input line 129.
 (pdftex.def)             Requested size: 224.84337pt x 168.63252pt.
-<ejemplo2.pdf, id=45, 642.4pt x 481.8pt>
+<ejemplo2.pdf, id=49, 642.4pt x 481.8pt>
 File: ejemplo2.pdf Graphic file (type pdf)
 <use ejemplo2.pdf>
 Package pdftex.def Info: ejemplo2.pdf  used on input line 133.
 (pdftex.def)             Requested size: 224.84337pt x 168.63252pt.
-<ejemplo3.pdf, id=46, 642.4pt x 481.8pt>
+<ejemplo3.pdf, id=50, 642.4pt x 481.8pt>
 File: ejemplo3.pdf Graphic file (type pdf)
 <use ejemplo3.pdf>
 Package pdftex.def Info: ejemplo3.pdf  used on input line 137.
 (pdftex.def)             Requested size: 224.84337pt x 168.63252pt.
  [2 <./ejemplo1.pdf> <./ejemplo2.pdf>]
-<ejemplo4.pdf, id=72, 642.4pt x 481.8pt>
+<ejemplo4.pdf, id=76, 642.4pt x 481.8pt>
 File: ejemplo4.pdf Graphic file (type pdf)
 <use ejemplo4.pdf>
 Package pdftex.def Info: ejemplo4.pdf  used on input line 141.
 (pdftex.def)             Requested size: 224.84337pt x 168.63252pt.
-<ejemplo5.pdf, id=73, 642.4pt x 481.8pt>
+<ejemplo5.pdf, id=77, 642.4pt x 481.8pt>
 File: ejemplo5.pdf Graphic file (type pdf)
 <use ejemplo5.pdf>
 Package pdftex.def Info: ejemplo5.pdf  used on input line 145.
 (pdftex.def)             Requested size: 224.84337pt x 168.63252pt.
-<ejemplo6.pdf, id=74, 313.99207pt x 372.26878pt>
+<ejemplo6.pdf, id=78, 313.99207pt x 372.26878pt>
 File: ejemplo6.pdf Graphic file (type pdf)
 <use ejemplo6.pdf>
-Package pdftex.def Info: ejemplo6.pdf  used on input line 147.
+Package pdftex.def Info: ejemplo6.pdf  used on input line 146.
 (pdftex.def)             Requested size: 235.49345pt x 279.2009pt.
- [3 <./ejemplo3.pdf> <./ejemplo4.pdf> <./ejemplo5.pdf>]
-<ejemplo7.pdf, id=124, 199.53847pt x 201.55301pt>
+<ejemplo7.pdf, id=79, 199.53847pt x 201.55301pt>
 File: ejemplo7.pdf Graphic file (type pdf)
 <use ejemplo7.pdf>
-Package pdftex.def Info: ejemplo7.pdf  used on input line 151.
-(pdftex.def)             Requested size: 159.63098pt x 161.24261pt.
+Package pdftex.def Info: ejemplo7.pdf  used on input line 150.
+(pdftex.def)             Requested size: 179.58296pt x 181.39601pt.
+<ejemplo12.pdf, id=80, 284.52698pt x 286.35483pt>
+File: ejemplo12.pdf Graphic file (type pdf)
+<use ejemplo12.pdf>
+Package pdftex.def Info: ejemplo12.pdf  used on input line 151.
+(pdftex.def)             Requested size: 199.16751pt x 200.447pt.
+ [3 <./ejemplo3.pdf> <./ejemplo4.pdf> <./ejemplo5.pdf> <./ejemplo6.pdf>]
+<ejemplo8.pdf, id=166, 642.4pt x 481.8pt>
+File: ejemplo8.pdf Graphic file (type pdf)
+<use ejemplo8.pdf>
+Package pdftex.def Info: ejemplo8.pdf  used on input line 155.
+(pdftex.def)             Requested size: 244.11453pt x 183.08589pt.
+<ejemplo9.pdf, id=167, 642.4pt x 481.8pt>
+File: ejemplo9.pdf Graphic file (type pdf)
+<use ejemplo9.pdf>
+Package pdftex.def Info: ejemplo9.pdf  used on input line 156.
+(pdftex.def)             Requested size: 244.11453pt x 183.08589pt.
+<ejemplo10.pdf, id=168, 331.81065pt x 327.20645pt>
+File: ejemplo10.pdf Graphic file (type pdf)
+<use ejemplo10.pdf>
+Package pdftex.def Info: ejemplo10.pdf  used on input line 160.
+(pdftex.def)             Requested size: 248.85736pt x 245.40422pt.
+<ejemplo11.pdf, id=169, 284.52698pt x 284.52698pt>
+File: ejemplo11.pdf Graphic file (type pdf)
+<use ejemplo11.pdf>
+Package pdftex.def Info: ejemplo11.pdf  used on input line 161.
+(pdftex.def)             Requested size: 213.39468pt x 213.39468pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--159
+Underfull \hbox (badness 10000) in paragraph at lines 171--172
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 160--161
+Underfull \hbox (badness 10000) in paragraph at lines 173--174
 
  []
 
-[4 <./ejemplo6.pdf> <./ejemplo7.pdf>] (./curso_gnuplot.aux
+[4 <./ejemplo7.pdf> <./ejemplo12.pdf> <./ejemplo8.pdf> <./ejemplo9.pdf> <./ejem
+plo10.pdf> <./ejemplo11.pdf>] [5] (./curso_gnuplot.aux
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
 )
@@ -666,13 +692,13 @@ LaTeX Info: Redefining \% on input line 25.
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `curso_gnuplot.out' has not changed.
-(rerunfilecheck)             Checksum: B25FB82D959FE54DFEC97A884B5DF9F7;639.
+(rerunfilecheck)             Checksum: D347E8B68A2193A0FB7E8892835CEBA4;791.
  ) 
 Here is how much of TeX's memory you used:
- 12564 strings out of 478994
- 176787 string characters out of 5864751
+ 12597 strings out of 478994
+ 177406 string characters out of 5864751
  519653 words of memory out of 5000000
- 29827 multiletter control sequences out of 15000+600000
+ 29853 multiletter control sequences out of 15000+600000
  407938 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,6n,74p,1180b,743s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -690,10 +716,10 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmtt10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt
 9.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on curso_gnuplot.pdf (4 pages, 728963 bytes).
+Output written on curso_gnuplot.pdf (5 pages, 798110 bytes).
 PDF statistics:
- 237 PDF objects out of 1000 (max. 8388607)
- 182 compressed objects within 2 object streams
- 10 named destinations out of 1000 (max. 500000)
- 81 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 325 PDF objects out of 1000 (max. 8388607)
+ 257 compressed objects within 3 object streams
+ 12 named destinations out of 1000 (max. 500000)
+ 114 words of extra memory for PDF output out of 10000 (max. 10000000)
 
