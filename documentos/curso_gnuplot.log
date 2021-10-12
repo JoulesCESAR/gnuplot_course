@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.5.23)  11 OCT 2021 18:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.5.23)  12 OCT 2021 12:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -704,10 +704,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 185--187
 
  []
 
-<ejercicio22.pdf, id=280, 284.52698pt x 284.52698pt>
-File: ejercicio22.pdf Graphic file (type pdf)
-<use ejercicio22.pdf>
-Package pdftex.def Info: ejercicio22.pdf  used on input line 190.
+<ejercicio2.pdf, id=280, 284.52698pt x 284.52698pt>
+File: ejercicio2.pdf Graphic file (type pdf)
+<use ejercicio2.pdf>
+Package pdftex.def Info: ejercicio2.pdf  used on input line 190.
 (pdftex.def)             Requested size: 213.39468pt x 213.39468pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 190--191
@@ -715,16 +715,51 @@ Underfull \hbox (badness 10000) in paragraph at lines 190--191
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 199--200
+Underfull \hbox (badness 10000) in paragraph at lines 192--193
 
  []
 
-[5 <./ejercicio1.pdf> <./ejercicio22.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 201--202
+[5 <./ejercicio1.pdf> <./ejercicio2.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 194--195
 
  []
 
-[6] (./curso_gnuplot.aux
+
+Underfull \hbox (badness 10000) in paragraph at lines 224--225
+
+ []
+
+<ejercicio3.pdf, id=333, 313.35168pt x 372.26979pt>
+File: ejercicio3.pdf Graphic file (type pdf)
+<use ejercicio3.pdf>
+Package pdftex.def Info: ejercicio3.pdf  used on input line 228.
+(pdftex.def)             Requested size: 235.01317pt x 279.20164pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 228--229
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 236--237
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 238--239
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 240--241
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 242--243
+
+ []
+
+[6 <./ejercicio3.pdf>] (./curso_gnuplot.aux
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
 )
@@ -735,10 +770,10 @@ Package rerunfilecheck Info: File `curso_gnuplot.out' has not changed.
 (rerunfilecheck)             Checksum: D347E8B68A2193A0FB7E8892835CEBA4;791.
  ) 
 Here is how much of TeX's memory you used:
- 12614 strings out of 478994
- 177726 string characters out of 5864751
+ 12620 strings out of 478994
+ 177847 string characters out of 5864751
  519653 words of memory out of 5000000
- 29867 multiletter control sequences out of 15000+600000
+ 29872 multiletter control sequences out of 15000+600000
  407938 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,7n,74p,1180b,743s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -758,10 +793,10 @@ fonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt1
 0.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/sha
 re/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf-dist/f
 onts/type1/public/cm-super/sfrm1000.pfb>
-Output written on curso_gnuplot.pdf (6 pages, 836233 bytes).
+Output written on curso_gnuplot.pdf (6 pages, 844413 bytes).
 PDF statistics:
- 386 PDF objects out of 1000 (max. 8388607)
- 312 compressed objects within 4 object streams
+ 403 PDF objects out of 1000 (max. 8388607)
+ 328 compressed objects within 4 object streams
  13 named destinations out of 1000 (max. 500000)
- 124 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 129 words of extra memory for PDF output out of 10000 (max. 10000000)
 
