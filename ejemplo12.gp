@@ -1,3 +1,4 @@
+# This is plot of quantum harmonic oscilator
 reset
 set term tikz standalone size 10cm, 10cm 
 set output 'ejemplo12.tex'
@@ -8,7 +9,7 @@ set yrange[0:20]
 k=25
 h=1
 w=2.85
-E(x) = (x+0.5)*h*w 
+E(x) = (x+0.5)*h*w    #Oscilator energy
 
 unset key
 set arrow from 0,0 to 0,17 lw 2 dt 2 lc 'blue'
