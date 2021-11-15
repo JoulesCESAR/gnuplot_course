@@ -1,3 +1,4 @@
+# Fitting data 
 reset
 #f(x) = sqrt(a*x**2+b*x+c)
 g(x) = a*x**2+b*x+c
