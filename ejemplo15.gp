@@ -1,3 +1,4 @@
+#This is an simple example of parametric plot
 reset
 set parametric
 set xrange [-110:110]
