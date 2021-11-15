@@ -1,3 +1,4 @@
+#This is a graph of three dimentional graph
 reset
 set term tikz standalone size 10cm, 10cm 
 set output 'ejemplo11.tex'
