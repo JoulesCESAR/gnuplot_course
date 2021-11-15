@@ -1,3 +1,4 @@
+#This is a plot of polarization in a ferroelectric crystal
 reset
 set term tikz standalone size 7cm, 7cm 
 set output 'ejemplo7.tex'
